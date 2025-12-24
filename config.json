@@ -1,0 +1,21 @@
+{
+  "security": {
+    "privateKeyPassword": "*****",
+    "keystorePassword": "*****"
+  },
+  "paths": {
+    "certDir": "C:\\Certs",
+    "paperCutPath": "C:\\Program Files\\PaperCut MF",
+    "opensslPath": "openssl"
+  },
+  "files": {
+    "privateKeyName": "kanga-roo.net.key",
+    "serverCertName": "kanga-roo.net.cer",
+    "chainCertName": "intermediate_certificate.cer",
+    "keystoreName": "my-ssl-keystore"
+  },
+  "logging": {
+    "rotateGen": 10,
+    "logFileNamePrefix": "UpdateCert_Log"
+  }
+}
